@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./Footer.js"></script>
+    <script src="./acciones.js"></script>
+    <script src="./blog.js"></script>
+    <script src="./planes-recarga.js"></script>
+    <script src="./header.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav style="background-color: #0c2739; color: white;">
+            <ul class="header-footer-list">
+                <li class="list-item-header"> <a href="#" style="text-decoration: none;">Personas</a> </li>
+                <li class="list-item-header"> <a href="#" style="text-decoration: none;">Profesionales</a> </li>
+                <li class="list-item-header"> <a href="#" style="text-decoration: none;">Negocios</a> </li>
+            </ul>
+        </nav>
+        <header-element></header-element>
+
+    </header>
+
+    <img src="./images/background-image-banner.png" class="img-fluid" alt="Responsive image">
+
+    <div>
+        <h3 class="linea-movistar-title">Tienda en línea Movistar</h3>
+
+        <div class="row" style="justify-content: center;">
+            <div class="card col-4 tienda" style="margin-right: 2rem; background-color: #009df4; padding: 0;">
+                <div class="card-body row" style="padding: 0;">
+                    <div class="col" style="align-self: center; margin-left: 2rem;">
+                        <h5 class="card-title">Muevete a más con tu Smartphone favorito y datos ilimitados</h5>
+                        <h6 class="card-subtitle mb-2" style="color: white;">Por $419 al mes</h6>
+                        <a href="#" class="card-link">Contrátalo aquí</a>
+                    </div>
+                    <div class="col" style="text-align: end; align-self: end;">
+                        <img src="./images/movete.png"></img>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-4 tienda" style="background-color: rgb(92, 182, 21); padding: 0;">
+                <div class="card-body row" style="padding: 0;">
+                    <div class="col" style="align-self: center; margin-left: 2rem;">
+                        <h5 class="card-title">Se parte del mejor squad al disfrutar Free Fire ilimitado y mas
+                            beneficios
+                            con tu
+                            recarga de $50</h5>
+                        <a href="#" class="card-link">Recarga ahora</a>
+                    </div>
+                    <div class="col" style="text-align: end; align-self: end;">
+                        <img src="./images/Free-fire.png"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="linea-movistar-title">Tus marcas de celulares favoritos están en Movistar</h3>
+
+        <div id="preview" class="row" style="justify-content: center;"></div>
+
+        <h6> Todas las marcas estan en Movistar </h6>
+    </div>
+
+    <h3 class="linea-movistar-title">Contrata un Plan con tu Smartphone favorito</h3>
+
+    <div class="container carousel-container">
+        <div id="row justify-content-md-center recipeCarousel" class="carousel">
+            <button class="carousel-control-prev col" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <div id="carousel-inner" class="carousel-inner col"></div>
+
+            <button class="carousel-control-next col" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <planes-recarga-element></planes-recarga-element>
+
+    <blog-element></blog-element>
+
+    <acciones-element></acciones-element>
+
+    <footer>
+        <footer-element></footer-element>
+    </footer>
+</body>
+
+</html>

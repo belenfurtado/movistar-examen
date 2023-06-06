@@ -1,0 +1,170 @@
+header a {
+    color: white;
+}
+
+.header-footer-list {
+    list-style: none;
+    display: inline-flex;
+}
+
+.list-item-header {
+    margin-right: 1rem;
+}
+
+.linea-movistar-title {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+.btn-primary {
+    --bs-btn-bg: #009df4;
+    --bs-btn-border-color: #009df4;
+    --bs-btn-hover-bg: shade-color(#009df4, 10%);
+    --bs-btn-hover-border-color: shade-color(#009df4, 10%);
+    --bs-btn-focus-shadow-rgb: #009df4;
+    --bs-btn-active-bg: shade-color(#009df4 20%);
+    --bs-btn-active-border-color: shade-color(#009df4, 20%);
+}
+
+.btn-outline-primary {
+    color: #009df4;
+    --bs-btn-border-color: #009df4;
+    --bs-btn-hover-bg: shade-color(#009df4, 10%);
+    --bs-btn-hover-border-color: shade-color(#009df4, 10%);
+    --bs-btn-focus-shadow-rgb: #009df4;
+    --bs-btn-active-bg: shade-color(#009df4, 20%);
+    --bs-btn-active-border-color: shade-color(#009df4, 20%);
+}
+
+#carrusel-contratos {
+    background-color: #f5f5f5;
+}
+
+.card-carousel {
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+}
+
+.card-body-carousel {
+    margin-left: 6%;
+}
+
+.carousel-inner {
+    display: inline-flex;
+    width: auto;
+}
+
+.carousel-item {
+    margin: 1% !important;
+    display: flex !important;
+}
+
+.carousel-container {
+    background-color: lightgray;
+    max-width: none;
+}
+
+.recipeCarousel {
+    width: auto;
+}
+
+.planes {
+    background-color: #009df4;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+}
+
+.recarga {
+    background-color: rgb(92, 182, 21);
+    color: white;
+    font-weight: lighter;
+    display: flex;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.planes-recarga-text {
+    vertical-align: middle;
+    margin: auto;
+}
+
+.planes-recargas-img {
+    width: 40%;
+}
+
+#container-planes-recargas {
+    display: contents;
+}
+
+s {
+    color: red;
+}
+
+.row-blog {
+    margin: auto;
+}
+
+.blog-link {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.acciones-card {
+    width: fit-content;
+    white-space: nowrap;
+    border-top-color: rgb(92, 182, 21);
+    border-top-width: thick;
+    font-weight: lighter;
+}
+
+.acciones-col {
+    width: auto;
+}
+
+.row-acciones {
+    justify-content: center;
+}
+
+.bi-phone {
+    color: rgb(92, 182, 21);;
+}
+
+footer {
+    color: white;
+    background-color: #0c2739;
+}
+
+footer a{
+color: white;
+}
+
+footer .row p {
+    display: contents;
+}
+
+footer ul {
+    font-size: small;
+    font-weight: lighter;
+}
+
+footer ul:before{
+    content:attr(aria-label);
+    font-weight: bolder;
+}
+
+footer li{
+    list-style-type: none
+}
+
+.tienda {
+    color: white;
+}
+.tienda a {
+    color: white;
+}
